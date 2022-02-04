@@ -27,7 +27,8 @@ class CamundaProcessInstanceDeleteRequest extends CamundaRequest
         return (new CamundaRestRequest($this->camundaClient))
             ->setRequestUrl('/process-instance/' . urlencode($this->getId()))
             ->setRequestMethod('DELETE')
-            ->setRequestOption(RequestOptions::QUERY, $query);
+            ->setJSON([RequestOptions::QUERY => $query]);
+
     }
 
 
