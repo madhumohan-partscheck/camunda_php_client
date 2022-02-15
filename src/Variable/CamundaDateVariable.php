@@ -1,8 +1,6 @@
 <?php
 
 namespace StrehleDe\CamundaClient\Variable;
-use Cake\Chronos\Chronos;
-
 /**
  * Class CamundaDateVariable
  * @package StrehleDe\CamundaClient\Variable
